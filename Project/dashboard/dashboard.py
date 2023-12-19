@@ -14,4 +14,4 @@ uploaded_file = st.file_uploader("Upload file", type=['csv', 'parquet'])
 prediction_plot = Image.open('cycle_44.png')
 
 # Display the image in Streamlit
-st.image(prediction_plot, use_column_width=True)
+st.image(prediction_plot, caption='Input data and prediction for Cycle 44',use_column_width=True)
