@@ -11,7 +11,7 @@ st.title('Sensor Health Dashboard')
 uploaded_file = st.file_uploader("Upload file", type=['csv', 'parquet'])
 
 # Load the PNG image using PIL (Python Imaging Library)
-prediction_plot = Image.open('dashbaord_wireframe.png')
+prediction_plot = Image.open('cycle_44.png')
 
 # Display the image in Streamlit
 st.image(prediction_plot, use_column_width=True)
